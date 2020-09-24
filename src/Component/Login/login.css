@@ -1,0 +1,15 @@
+.signup{
+    width: 500px;
+    margin:auto;
+    border-radius: 4px 4px 4px white;
+    
+    margin: 50px;
+    margin-left:300px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+}
+
+.formD{
+    width: 50%;
+   margin-left:20px;
+}

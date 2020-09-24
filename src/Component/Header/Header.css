@@ -1,0 +1,22 @@
+.nav1{
+    margin-left:20px;
+    display: inline-block;
+}
+.nav1 img{
+   padding-right: 20px;
+}
+.nav1 input{
+    border-radius: 5px 5px 5px lightgrey;
+    width:220px
+}
+.nav2{
+    float:right;
+    margin-top: 20px;
+}
+.nav2 a{
+    margin-right: 20px;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+    background-color: lightslategray;
+}
