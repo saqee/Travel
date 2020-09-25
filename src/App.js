@@ -26,7 +26,7 @@ function App() {
     <UserContext.Provider value={[loggedInUser,setloggedInUser]}>
      <div className="containerFluid" style={{
       backgroundImage:`url(${bgImage})`,
-      height:'1000px',
+      height:'1500px',
       width:'100%',
       }}>   
            

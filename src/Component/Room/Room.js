@@ -1,8 +1,11 @@
 import React from 'react';
 import './Room.css'
-import {Map, InfoWindow, Marker, GoogleApiWrapper,google} from 'google-maps-react';
+
+
+
 const Room = (props) => {
     const {name,price,img,star}=props.item
+   
     return (
         <div className="room">
               <h2 style={{color:'white'}}>Room Information</h2>
@@ -13,9 +16,7 @@ const Room = (props) => {
                  <p style={{color:'white'}}>Rating:{star}</p>
             </div>
 
-            <div className="col-md-6">
-            
-           </div>
+           
         </div>
     );
 };
@@ -23,6 +24,4 @@ const Room = (props) => {
 
 
 
-export default GoogleApiWrapper({
-    apiKey: ("AIzaSyA0lftA0JcuMdOhsdbBPcZvEQXN45pNEUY")
-  })(Room)
+export default Room;

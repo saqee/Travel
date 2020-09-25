@@ -12,6 +12,8 @@ const Login = () => {
       isSignIn:false,
       email:'',
       password:'',
+      error:'',
+      success:''
     })
     const history=useHistory()
     const [loggedInUser,setloggedInUser]=useContext(UserContext)
@@ -22,7 +24,7 @@ const Login = () => {
             var token = result.credential.accessToken;
             // The signed-in user info.
             var user = result.user;
-            
+            history.push('/book')
             // ...
           }).catch(function(error) {
             // Handle Errors here.

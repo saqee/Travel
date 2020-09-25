@@ -25,7 +25,7 @@ const SignIn = () => {
             const newUserInfo={...user}
             setUser(newUserInfo)
             setloggedInUser(newUserInfo)
-            history.push('/book')
+            history.replace(from)
             
             // ...
           }).catch(function(error) {
